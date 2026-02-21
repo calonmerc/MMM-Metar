@@ -4,6 +4,15 @@ This is a module for the [MagicMirror²-Project](https://magicmirror.builders).
 
 It displays METARs from airports defined in config.
 
+## Screenshot
+
+**decoded**
+
+![scrrenshot decoded](img/screenshot_decoded.png)
+
+**not decoded**
+![screenshot not decoded](img/screenshot_not_decoded.png)
+
 ## Installation
 
 Assuming `~/MagicMirror` is the directory where you installed MagicMirror².
