@@ -33,7 +33,7 @@ Module.register("MMM-Metar", {
         Log.info(this.data.name + ": Fetching initial METARs");
 		this.scheduleUpdate(this.config.initialLoadDelay);
     },
-    
+
     getStyles() {
         return ["MMM-Metar.css"]
     },
@@ -93,6 +93,10 @@ Module.register("MMM-Metar", {
     },
 
     async fetchData(url) {
-        return performWebRequest(url);
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`HTTP error: ${response.status}`);
+        }
+        return response.json();
     }
   });
