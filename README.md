@@ -21,7 +21,7 @@ Assuming `~/MagicMirror` is the directory where you installed MagicMirror².
 
 ```bash
 cd ~/MagicMirror/modules
-git clone https://github.com/calonmerc/MMM-Metar.git
+git clone https://github.com/calonmerc/MMM-Metar
 ```
 
 ### Update your config.js file
@@ -29,8 +29,6 @@ git clone https://github.com/calonmerc/MMM-Metar.git
 Add a configuration block to the modules array in the `~/MagicMirror/config/config.js` file and define your [AVWX.rest (register for an account)](https://account.avwx.rest/getting-started) API Key:
 
 ```js
-var config = {
-  modules: [
     {
       module: "MMM-Metar",
       position: "top_right",
@@ -39,8 +37,6 @@ var config = {
         airports: [ "KSFO","PAO","HAF","JFK" ],
       },
     },
-  ],
-};
 ```
 
 This is the minimal config setup, you find more params in the [`default` section of `MMM-Metar.js`](../-/blob/master/MMM-Metar.js#L7).
