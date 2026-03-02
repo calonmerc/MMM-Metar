@@ -11,6 +11,7 @@ It displays METARs from airports defined in config.
 ![screenshot decoded](img/screenshot_decoded.png)
 
 **Raw view**
+
 ![screenshot not decoded](img/screenshot_not_decoded.png)
 
 ## Installation
