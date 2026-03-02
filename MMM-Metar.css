@@ -15,3 +15,32 @@
 .metarHalf {
     max-width: 40vw;
 }
+
+.metarDecoded {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.metarDecoded th {
+    text-align: left;
+    padding: 2px 8px;
+    color: #aaa;
+    font-size: 0.8em;
+    border-bottom: 1px solid #444;
+    white-space: nowrap;
+}
+
+.metarDecoded td {
+    padding: 3px 8px;
+    white-space: nowrap;
+}
+
+.metarDecoded tr.borderBottom td {
+    border-bottom: 1px solid #222;
+}
+
+/* Flight rules color coding */
+.flightRules.VFR  { color: #4caf50; font-weight: bold; }
+.flightRules.MVFR { color: #2196f3; font-weight: bold; }
+.flightRules.IFR  { color: #f44336; font-weight: bold; }
+.flightRules.LIFR { color: #9c27b0; font-weight: bold; }

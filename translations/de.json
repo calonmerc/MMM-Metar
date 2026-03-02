@@ -1,0 +1,14 @@
+{
+  "METAR_NO_API_KEY": "AVWX.rest API-Schlüssel nicht konfiguriert.",
+  "METAR_LOADING": "Lädt...",
+  "METAR_STATION": "Station",
+  "METAR_TIME": "Zeit (UTC)",
+  "METAR_WIND": "Wind",
+  "METAR_VISIBILITY": "Sicht",
+  "METAR_WEATHER": "Wetter",
+  "METAR_CLOUDS": "Wolken",
+  "METAR_TEMP_DEW": "T / Td",
+  "METAR_PRESSURE": "QNH",
+  "METAR_FLIGHT_RULES": "Regel",
+  "METAR_CALM": "Windstille"
+}
